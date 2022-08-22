@@ -1,0 +1,263 @@
+@import url("https://use.fontawesome.com/releases/v6.0.0/css/all.css?fbclid=IwAR2DhHondqEUUQPBaeqn3JzEzvhUCZ2qLIq3NrLQ9JsWkb_ypz9v9tNc84Y");
+
+*,
+::after,
+::before{
+ box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+
+.left-nav p{
+    font-size: 25px;
+}
+
+.strong{
+    color: #3FAABE;
+    
+}
+
+.home-tag{
+    border-bottom: 3px solid #3FAABE;
+    padding-bottom: 6px;
+}
+
+.right-nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 70px;
+}
+
+.right-nav-item{
+    list-style-type: none;
+   
+}
+
+.right-nav-item a{
+    text-decoration: none;
+    margin: 0 6px;color: #555455;
+}
+
+.get-started{
+    background: url("./images/slide2.jpg"); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+   
+}
+
+
+.get-started-content{
+    width: 35%;
+    height: 31%;
+    line-height: 0.4;
+    position: absolute;
+    top: 230px;
+    right: 800px;
+    
+    background-size: 50%;
+    
+    background-image: linear-gradient(rgba(39, 44, 51, 0.53),rgba(51, 57, 63, 0.5))
+    
+    
+}
+.get-started-content-title {
+    color: white;
+    font-size: 40px;
+}
+
+.get-started-content-btn{
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 8px 18px;
+    width: 45%;
+}
+
+.welcome{
+    padding: 20px 150px;
+}
+
+.welcome-content{
+    text-align: center;
+    position: relative;
+}
+
+.welcome-content-title{
+    font-size: 33px;
+}
+
+.welcome-content-title::after{
+    content: "";
+    height: 2%;
+    width: 10%;
+    background-color: lightskyblue;
+    position: absolute;
+    top: 40px;
+    left: 555px;
+}
+
+.welcome-content-btn{
+    background-color: #454545;
+    color: white;
+    border: none;
+    border-radius: 16px;
+    padding: 10px 32px;
+}
+
+.our-services{
+   
+    padding: 20px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    background-color: #EEF0F1;
+}
+
+.our-services-title{
+    font-size: 22px;
+}
+
+.our-services-title::after{
+    content: "";
+    height: 0.2%;
+    width: 9%;
+    background-color: black;
+    position: absolute;
+    top: 86px;
+    left: 689px;
+}
+
+.our-services-content{
+
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content:center;
+    
+   
+}
+
+.our-services-content-conteiner{
+  flex-basis: 40%;
+  
+ 
+}
+
+.our-services-content-left-img{
+    flex-basis: 50%;
+}
+
+.our-services-content-left-img img{
+    width: 100%;
+}
+
+.our-services-content-left-content{
+    width: 100%;
+    margin-right: 0;
+    padding: 20px 0;
+    text-align: center;
+  background-color: white;
+    
+}
+
+.our-services-content-left-content h3{
+    font-size: 20px;
+}
+
+.left{
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    width: 32%;
+}
+
+.subcribe{
+ 
+    background-color: #393F43;
+    padding: 20px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    
+}
+
+.subcribe-title{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.subcribe-text{
+
+    color: white;
+    margin-top: 0;
+}
+
+.subcribe-form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form input{
+  background: #AEACA9;
+    width: 360px;
+    height: 29px;
+    color: white;
+    border: none;
+    margin: 0 10px;
+}
+
+.form-btn{
+    background-color: #6BBFFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 160px;
+    
+    padding: 6px 14px;
+}
+
+.footer{
+    padding: 20px auto;
+   background-color: #2F3539;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer-content a{
+    margin: 0.5rem 0.5rem;
+}
+
+#adress{
+  color: bisque;
+}
